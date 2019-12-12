@@ -14,6 +14,7 @@ public class BlockChain {
 		this.previousHash=previousHash;
 		this.timeStamp = new Date().getTime();
 		this.hash = calculateHash();
+//hello
 	}
 	
 	public String calculateHash() {
